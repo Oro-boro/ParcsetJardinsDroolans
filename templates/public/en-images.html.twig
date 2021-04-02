@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Galerie photo - En images
+{% endblock %}
+
+{% block body %}
+	<style>
+		.example-wrapper {
+
+			align: center;
+			margin: auto;
+			max-width: 800px;
+			font: 18px / 1.5 sans-serif;
+		}
+		.example-wrapper code {
+			background: #F5F5F5;
+		}
+	</style>
+	<section class="en-images">
+		<article>
+			<h2>En images</h2>
+			<div class="metadata">
+				Irure labore duis velit fugiat ullamco voluptate nisi laborum aute ad enim exercitation. Occaecat cupidatat sit in esse.
+			</div>
+			<div class="content">
+				<div>
+					<img src="http://placehold.it/350x450" alt="avant ">
+					<img src="http://placehold.it/350x450" alt="apres ">
+				</div>
+			</article>
+		</section>
+	{% endblock %}
