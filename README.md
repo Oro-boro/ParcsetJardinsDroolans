@@ -26,6 +26,7 @@ Site TFE : ParcsetJardinsDroolans
 - Formulaire "contact" fonctionnel (template a revoir).
 - Mails, noms et messages stockés en DB.
 - Envoi de mails / messages fonctionnel (en tout cas via MailCatcher!).
+- Pipeline de tests "securité + code correction" fonctionnel (Test avant commit via GitLab).
 
 
 ## A faire :
